@@ -1,11 +1,17 @@
+/**
+ * Created by talal.abouhaiba on 11/11/15.
+ *
+ * Will display all potential stops
+ */
+
 package edu.soe.ucsc.slugloop;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class TEMP extends AppCompatActivity {
+public class StopSelection extends Activity { // implements OnClickListener
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,4 +40,5 @@ public class TEMP extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-}
+
+} // end class StopSelection
